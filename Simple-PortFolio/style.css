@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: darkgray;
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+
+}
+
+.home-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    padding-left: 20px;
+    padding-top: 5px ;
+    margin-left: 3px;
+    color: cornsilk;
+} 
+
+.navbarul{
+    margin-top: 0px;
+    float: right;
+    padding-top: 0px;
+    list-style: none;   
+}
+.home-text span {
+    color: crimson;
+}
+.navbarul li{
+    float: left;
+    padding-right: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbarul a{
+    text-align: center;
+    color: rgb(177, 192, 190);
+    font-size: 1.5em;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.navbarul a:hover{
+  color: honeydew;
+}
+.home-page{
+    padding-top: 50px;
+    margin-left: 150px;
+}
+.home-page span{
+    color:crimson;
+}
+.home-text2{  
+    font-size: 2.5em;
+    font-family:'Times New Roman', Times, serif;
+}
+.ah{
+    margin-top: 20px;
+
+}
+.home-page a{    
+    background-color: wheat;
+    margin-top: auto;
+    padding: 10px;
+    margin-left: 20%;
+    font-size: 30px;
+    border-radius: 3px;
+}
+
+.home-page a:hover{
+background-color: thistle;
+}
+
+#home{
+    margin-top: 0px;
+    background: url(Image/Cover.jpg) no-repeat center center/cover;
+    height: 900px;
+    width: 100%;  
+}
+
+
+#about{
+    text-align: center;
+    padding: 10px;
+    background-color: lightsteelblue;
+    height: 900px;
+    width: 100%;  
+}
+.image img {
+    width: 100%;
+    height: 100%;
+}
+.image{
+    padding-top: 20x;    
+    width: 400px;
+    height: 400px;
+}
+.ap{
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width:800px;
+    height: auto;
+    border: 10px solid cornflowerblue;
+    border-radius: 5px;
+    background-color: cornsilk;
+    font-size: 1.5em;
+    
+}
+    .ap pre{
+        word-wrap:break-word;
+    }
+
+.abotme{
+    margin: 10px;
+    font-size: 3.5em;
+}
+.info{
+    margin: 20px;
+    display: flex;
+
+}
